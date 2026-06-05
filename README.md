@@ -1,73 +1,218 @@
-# Welcome to your Lovable project
+🌸 Food & Diet – AI Nutrition System for Student Mental Wellness
 
-## Project info
+An intelligent **AI-powered nutrition feature** designed for university students, combining **Indian food intelligence, mental health support, and personalized diet planning**.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+This system acts as a **soft, caring nutritionist** that delivers:
 
-## How can I edit this code?
+* Personalized weekly meal plans 🍛
+* Accurate calorie & macro tracking 📊
+* Mood + hormone-aware nutrition 🌸
+* Hostel-friendly real-world food suggestions
 
-There are several ways of editing your application.
+ 🌐 Overview
 
-**Use Lovable**
+**Food & Diet** is part of a **mental health chatbot ecosystem**, focused on improving:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+* 🧠 Mood stability
+* ⚡ Energy levels
+* 🌙 Sleep quality
+* 🌸 Hormonal balance (for female users)
 
-Changes made via Lovable will be committed automatically to this repo.
+It uses **real Indian meals (130+ foods)** instead of unrealistic diets — making it practical for:
 
-**Use your preferred IDE**
+* Hostel students
+* Day scholars
+* PG / limited cooking setups
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+✨ Key Features
+🧠 Smart Personalization Engine
 
-Follow these steps:
+* Gender-based customization
+* Period-aware nutrition (auto-detected for females)
+* Stress, sleep & lifestyle adaptation
+* Hostel vs home food optimization
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+🍛 130+ Indian Food Intelligence
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+* Covers:
+  * North Indian 🇮🇳
+  * South Indian 🍛
+  * Kerala 🌴
+  * Indo-Chinese 🥡
+  * Western-adapted 🍝
 
-# Step 3: Install the necessary dependencies.
-npm i
+* Each food includes:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+  * Calories
+  * Macros (Carbs, Protein, Fat)
+  * Functional benefits (Iron, Omega-3, Magnesium, etc.)
 
-**Edit a file directly in GitHub**
+📅 Weekly AI Meal Planner
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+* Generates **7-day structured meal plans**
+* ~2100–2200 kcal optimized diets
+* Includes:
 
-**Use GitHub Codespaces**
+  * Breakfast
+  * Lunch
+  * Dinner
+  * Mood-based snacks
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+🌸 Female Health Intelligence (Advanced)
 
-## What technologies are used for this project?
+* Period phase detection:
 
-This project is built with:
+  * Week 1 → Iron Boost 🩸
+  * Week 2 → Hormone Balance 🌸
+  * Week 3 → PMS Calm 🌙
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+* Supports:
 
-## How can I deploy this project?
+  * PCOD-aware logic (with safety gate)
+  * Seed cycling (Flaxseed ↔ Pumpkin seeds)
+  * Iron & magnesium optimization
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+ 📸 AI Food Tracking
 
-## Can I connect a custom domain to my Lovable project?
+* Plate photo → calorie estimation
+* Text input support:
 
-Yes, you can!
+  * `"mess dal rice"` → auto logs calories
+  * `"2 idli sambar"` → instant breakdown
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+ 📊 Real-Time Nutrition Dashboard
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+* Daily calorie tracking
+* Macro split visualization
+* Meal completion tracker
+* Streak & consistency scoring
+
+🎮 Gamification Layer
+
+* 🔥 Streak tracking
+* 🏆 Achievements:
+* 3 days → Mood Balance
+* 7 days → Week Warrior
+* 21 days → Nutrition Champion
+* 👭 Social challenges (e.g., roommate streaks)
+
+🚨 Safety First (Critical Design Principle)
+
+If a user reports:
+
+* Diabetes
+* Thyroid
+* PCOD
+* Heart conditions
+* Medication
+
+➡️ The system **stops immediately** and advises:
+
+> Consult a doctor before diet changes
+
+No recommendations are generated beyond this point.
+
+🧩 System Flow
+1. 90-Second Smart Quiz
+
+Captures:
+* Health safety
+* Profile (age, gender, BMI)
+* Food access (mess/home)
+* Mood
+* Sleep & stress
+* Female cycle data (if applicable)
+
+ 
+ 2. AI Processing Layer
+
+Applies:
+* Nutrition rules engine
+* Hormonal logic
+* Calorie targeting
+* Cultural food mapping
+
+3. Output Generation
+Produces:
+
+* Weekly meal plan
+* Live dashboard
+* Smart recommendations
+* Tracking interface
+
+🧠 Personalization Logic
+
+👩 Female Users
+* Cycle-aware nutrition
+* Iron / Omega-3 / Magnesium targeting
+* Seed cycling automation
+
+👨 Male Users
+* Focus on:
+* Energy
+* Muscle recovery
+*  Mood stabilization
+
+
+⚡ Lifestyle Adjustments
+
+* High stress → calming foods (ginger, magnesium)
+* Late nights → energy balancing meals
+* Weight loss → portion optimization
+* Low energy → protein boost
+
+
+🔄 Cuisine Rotation System
+
+| Week | Cuisine      |
+| ---- | ------------ |
+| 1    | North Indian |
+| 2    | South Indian |
+| 3    | Kerala       |
+| 4    | Indo-Chinese |
+| 5    | Western      |
+
+Ensures:
+
+* Variety
+* Nutrient diversity
+* Long-term engagement
+
+ 🛠️ Tech Stack
+
+* ⚛️ React
+* 🟦 TypeScript
+* ⚡ Vite
+* 🎨 Tailwind CSS
+* 🧩 shadcn/ui
+
+🎯 Use Cases
+
+* 🎓 College students (hostel/day scholar)
+* 🧠 Mental wellness platforms
+* 🥗 Nutrition coaching apps
+* 🤖 AI health assistants
+
+💡 Design Philosophy
+
+> “Real food. Real students. Real impact.”
+
+* No unrealistic diets ❌
+* No western-only meals ❌
+* Fully localized Indian system ✅
+* Emotion-aware AI tone 💕
+
+🔮 Future Enhancements
+* Mess menu scraping
+* Voice-based food logging
+* Regional language support
+
+  
+🤝 Contributing
+Pull requests are welcome!
+For major changes, please open an issue first.
+
+
+❤️ Acknowledgment
+Built with a mission to improve **student mental health through nutrition 🌸
